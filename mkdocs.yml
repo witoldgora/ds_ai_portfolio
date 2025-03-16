@@ -1,0 +1,24 @@
+site_name: Moje projekty
+site_author: Witold Góra
+site_description: >-
+    Portfolio moich projektów szkoleniowych z Data Science i AI!
+
+theme:
+  name: material
+  palette:
+    primary: green
+
+nav:
+- Strona Domowa: index.md
+- Obecny projekt:
+  - "Fabryka opowiadań": story_factory/index.md
+- Poprzednie projekty:
+  - "Iris": iris/index.md
+  - "Titanic": titanic/index.md
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+
+repo_name: witoldgora/ds_ai_portfolio
+repo_url: https://github.com/witoldgora/ds_ai_portfolio
